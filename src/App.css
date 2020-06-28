@@ -1,5 +1,4 @@
-
-.cell {
+.box {
   display: inline-block;       
   border: 1px solid black;
   width: 15px;
@@ -13,11 +12,11 @@
 }
 
 .on {
-  background-color:black;
+  background-color: green;
 }
   
-.cell:hover { 
-  background: grey;
+.box:hover { 
+  background: #00CCFF;
 }
 
 .center {
@@ -35,7 +34,7 @@
 }
   
 h1, h2, h3, h4 {
-  color:black;
+  color: black;
   margin: auto;
   text-align: center;
   width: 50%;
